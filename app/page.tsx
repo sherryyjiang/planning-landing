@@ -29,7 +29,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4 text-white">peek</h1>
 
             {/* Tagline */}
-            <p className="text-xl md:text-2xl text-gray-400 mb-12">see exactly where your money goes—in just 2 minutes</p>
+            <p className="text-xl md:text-2xl text-gray-400 mb-12">see exactly how to become debt-free — in just 2 minutes</p>
 
             <div className="w-full max-w-sm mx-auto">
               <div className="flex justify-center">
@@ -50,45 +50,51 @@ export default function Home() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-white">here&apos;s how it works</h2>
               <p className="mt-4 text-gray-400">
-                peek uses the power of AI to help you understand your spending and build better habits
+                peek uses AI to create your custom debt repayment plan and keep you on track
               </p>
             </div>
             <div className="mt-16 grid gap-0 md:grid-cols-3 max-w-5xl mx-auto">
               <div className="flex flex-col items-center text-center px-1">
                 <div className="mb-6 h-[500px] w-full relative overflow-hidden">
                   <Image
-                    src="/Expenses.png"
-                    alt="Expenses screen"
+                    src="/Add assets.png"
+                    alt="Add assets screen"
                     fill
                     className="object-contain"
                     priority
                   />
                 </div>
-                <p className="text-base text-gray-300">connect your accounts instantly</p>
+                <div className="px-4 md:px-6 max-w-xs">
+                  <p className="text-base md:text-lg font-medium text-gray-200">connect your accounts instantly</p>
+                </div>
               </div>
               <div className="flex flex-col items-center text-center px-1">
                 <div className="mb-6 h-[500px] w-full relative overflow-hidden">
                   <Image
-                    src="/Stories_insights.png"
-                    alt="Stories and insights screen"
+                    src="/Debt_insights.png"
+                    alt="Debt insights screen"
                     fill
                     className="object-contain"
                     priority
                   />
                 </div>
-                <p className="text-base text-gray-300">spot your spending leaks in seconds</p>
+                <div className="px-4 md:px-6 max-w-xs">
+                  <p className="text-base md:text-lg font-medium text-gray-200">get your optimized debt payoff strategy in seconds</p>
+                </div>
               </div>
               <div className="flex flex-col items-center text-center px-1">
                 <div className="mb-6 h-[500px] w-full relative overflow-hidden">
                   <Image
-                    src="/Follow up chat.png"
-                    alt="Follow up chat screen"
+                    src="/Debt_chat.png"
+                    alt="Debt chat screen"
                     fill
                     className="object-contain"
                     priority
                   />
                 </div>
-                <p className="text-base text-gray-300">get guidance to fix them</p>
+                <div className="px-4 md:px-6 max-w-xs">
+                  <p className="text-base md:text-lg font-medium text-gray-200">receive personalized guidance to stay debt-free</p>
+                </div>
               </div>
             </div>
           </div>
