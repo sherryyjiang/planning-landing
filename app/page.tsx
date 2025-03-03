@@ -29,7 +29,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4 text-white">peek</h1>
 
             {/* Tagline */}
-            <p className="text-xl md:text-2xl text-gray-400 mb-12">see exactly how to become debt-free — in just 2 minutes</p>
+            <p className="text-xl md:text-2xl text-gray-400 mb-12">learn how to start investing — in just 2 minutes</p>
 
             <div className="w-full max-w-sm mx-auto">
               <div className="flex justify-center">
@@ -50,7 +50,7 @@ export default function Home() {
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-white">here&apos;s how it works</h2>
               <p className="mt-4 text-gray-400">
-                peek uses AI to create your custom debt repayment plan and keep you on track
+                peek uses AI to help you get started with investing
               </p>
             </div>
             <div className="mt-16 grid gap-0 md:grid-cols-3 max-w-5xl mx-auto">
@@ -69,9 +69,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex flex-col items-center text-center px-1">
-                <div className="mb-6 h-[500px] w-full relative overflow-hidden">
+                <div className="mb-6 h-[500px] w-full relative overflow-hidden bg-black rounded-3xl">
                   <Image
-                    src="/Debt_insights.png"
+                    src="/investment_insights.png"
                     alt="Debt insights screen"
                     fill
                     className="object-contain"
@@ -79,13 +79,13 @@ export default function Home() {
                   />
                 </div>
                 <div className="px-4 md:px-6 max-w-xs">
-                  <p className="text-base md:text-lg font-medium text-gray-200">get your optimized debt payoff strategy in seconds</p>
+                  <p className="text-base md:text-lg font-medium text-gray-200">get investment insights in seconds</p>
                 </div>
               </div>
               <div className="flex flex-col items-center text-center px-1">
                 <div className="mb-6 h-[500px] w-full relative overflow-hidden">
                   <Image
-                    src="/Debt_chat.png"
+                    src="/investment_chat.png"
                     alt="Debt chat screen"
                     fill
                     className="object-contain"
@@ -93,7 +93,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="px-4 md:px-6 max-w-xs">
-                  <p className="text-base md:text-lg font-medium text-gray-200">receive personalized guidance to stay debt-free</p>
+                  <p className="text-base md:text-lg font-medium text-gray-200">get step-by-step guidance from opening your account to buying your investments</p>
                 </div>
               </div>
             </div>
