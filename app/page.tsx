@@ -3,7 +3,6 @@ import { GradientBackground } from "@/components/ui/gradient-background";
 import Image from "next/image";
 import EmailSignUpForm from "@/components/EmailSignUpForm";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import EmailAdmin from "@/components/EmailAdmin";
 
 export default function Home() {
   return (
@@ -118,9 +117,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-      
-      {/* Admin Panel */}
-      <EmailAdmin />
     </div>
   );
 }
